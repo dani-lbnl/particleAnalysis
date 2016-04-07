@@ -12,7 +12,6 @@
 ### Data reduction
 - initial estimation of the zones most likely to contain the regions of interest (ROI)
 - user-guided, semi-automated and automated methods for determining ROIs
-- 
 
 ### Mechanical turk
 - GUIs for curating data
