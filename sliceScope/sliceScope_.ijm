@@ -1,5 +1,5 @@
 /*
- * Creating paper quality grphs for the CMC samples from Natalie Carlson
+ * Creating paper quality grphs for the CMC samples from N.C.
  * Algorithm: Detect fiber profiles
  * INPUT: select a binary slice representation of a specimen
  * OUTPUT: separate fibers with watershed, color, and show magnified patches
