@@ -1,0 +1,13 @@
+#Run for the whole database
+ic = io.ImageCollection("/Users/ushizima/Dropbox/aqui/BIDS/projects/nih_pil/pir-challenge/dr/*.jpg")
+#check a subset first ic[:1]
+for n, pillPicture in enumerate(ic[:1]):
+    mask = pillSegmentation(pillPicture)
+    #io.imsave('output/boundary_%03d.png' % n, mask)
+    path = ic.files[n]
+    pathPieces=path.split('/')
+    pathPieces2=pathPieces[-1].split('.')
+    filename='output/'+pathPieces2[0]+'.png'
+    io.imsave(filename, mask) #how to save mask with the same filename
+    #plt.imshow(smoothPill)
+print("Done")
