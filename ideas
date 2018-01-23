@@ -11,3 +11,12 @@ for n, aslice in enumerate(ic[:1]):
     io.imsave(filename, mask) #how to save mask with the same filename
     #plt.imshow(mask)
 print("Done")
+
+------ cdb = only small version
+#2. Reduce image resolution, protect original data
+shrinkFactor = 0.2
+
+w=round(croppedPill.shape[0]*shrinkFactor)
+h=round(croppedPill.shape[1]*shrinkFactor)
+from skimage.transform import resize
+smallPill= resize(croppedPill,(w,h))
