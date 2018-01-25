@@ -12,7 +12,7 @@ for n, aslice in enumerate(ic[:1]):
     #plt.imshow(mask)
 print("Done")
 
------- cdb = only small version
+## cdb = only small version
 #2. Reduce image resolution, protect original data
 shrinkFactor = 0.2
 
