@@ -12,7 +12,7 @@ for n, aslice in enumerate(ic[:1]):
     #plt.imshow(mask)
 print("Done")
 
-## TODO: cdb = only small version
+## TODO: NM thoughts on using cdb for exploratory vi = only small version
 #2. Reduce image resolution, protect original data
 shrinkFactor = 0.2
 
