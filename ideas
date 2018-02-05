@@ -19,7 +19,7 @@ shrinkFactor = 0.2
 w=round(roiSlice.shape[0]*shrinkFactor)
 h=round(roiSlice.shape[1]*shrinkFactor)
 from skimage.transform import resize
-smallPill= resize(croppedPill,(w,h))
+smallObj= resize(croppedPill,(w,h))
 
 # tips at BIDS
 [ic[v] for v in ...]
