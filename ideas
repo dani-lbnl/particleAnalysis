@@ -23,3 +23,5 @@ smallObj= resize(croppedPill,(w,h))
 
 # tips at BIDS
 [ic[v] for v in ...]
+
+look for jobli
