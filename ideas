@@ -12,7 +12,7 @@ for n, aslice in enumerate(ic[:1]):
     #plt.imshow(mask)
 print("Done")
 
-## TODO: NM thoughts on using cdb for exploratory vi = only small version
+## TODO: NM thoughts on using cdb for exploratory vi 
 #2. Reduce image resolution, protect original data
 shrinkFactor = 0.2
 
@@ -24,4 +24,4 @@ smallObj= resize(croppedPill,(w,h))
 # tips at BIDS
 [ic[v] for v in ...]
 
-look for jobli
+look for joblib
